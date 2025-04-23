@@ -4,9 +4,9 @@
 
 Polytonic Extension is a modified version of the STIX Two fonts, extended to support polytonic Greek.
 
-The STIX Fonts project is ambitious, delivering a comprehensive set of fonts for publishing needs.
+The STIX Fonts project is ambitious, delivering a comprehensive set of fonts for publishing needs. The STIX Two fonts support the use of Greek in mathematics and other technical genres, as well as monotonic Greek text. Unfortunately, polytonic Greek is currently outside the scope of the project. Therefore, I have created this modified version simply to meet my needs.
 
-The STIX Two fonts support the use of Greek in mathematics and other technical genres, as well as monotonic Greek text. Unfortunately, polytonic Greek is currently outside the scope of the project. Therefore, I have created this modified version simply to meet my needs. My modified version is a rough font and lacks features that you would expect from professional fonts.
+My modified version uses the same source and build process as the original STIX fonts, and for the most part should inherit the same quality for Latin, Cyrillic and monotonic Greek. With regards to polytonic Greek, it lacks some features that you would expect from professional fonts.
 
 ## STIX Two
 
@@ -44,9 +44,11 @@ The only (Unicode) fonts that I have come across which correctly place diacritic
 
 ## This version
 
-Polytonic Extension lacks features that would be expected from professional fonts, especially kerning, good hinting, and certain OpenType considerations (e.g. management of diacritics when uppercasing Greek, small caps). I use iota subscript everywhere, there is no provision for adscript. I  have it in Regular and Bold weights only (but interpolation is possible), with no Italic style. I may alter the fonts from time to time without notice, for example if I decide outlines need tweaking or I want to improve kerning.
+Polytonic Extension lacks features that would be expected from professional fonts, especially kerning, good hinting, and certain OpenType considerations (e.g. management of diacritics when uppercasing Greek, small caps). I use iota subscript everywhere, there is no provision for adscript. It is available in Regular, Medium, Semibold and Bold weights (and as a variable font), with no Italic style. I may alter the fonts from time to time without notice, for example if I decide outlines need tweaking or I want to improve kerning.
 
 If STIX Two is ever updated to support polytonic Greek, [which is quite possible](https://github.com/stipub/stixfonts/issues/146), then my modified version will become obsolete.
+
+The source can be found at [https://github.com/amoschou/stixfonts/tree/polytonic-extension-v2.14/extension](https://github.com/amoschou/stixfonts/tree/polytonic-extension-v2.14/extension).
 
 ## Copyright and license
 
