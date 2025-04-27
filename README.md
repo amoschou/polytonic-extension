@@ -8,6 +8,8 @@ The STIX Fonts project is ambitious, delivering a comprehensive set of fonts for
 
 My modified version uses the same source and build process as the original STIX fonts, and for the most part should inherit the same quality for Latin, Cyrillic and monotonic Greek. With regards to polytonic Greek, it lacks some features that you would expect from professional fonts.
 
+The polytonic Greek glyphs are in Roman style only, the Italic style is not ready yet. However, Italic fonts are provided in the build, so that the *Italic* button will continue to work in word processors when typin in Latin, Cyrillic or monotonic Greek.
+
 ## STIX Two
 
 The source STIX Two fonts are OpenType Unicode fonts for Scientific, Technical, and Mathematical texts, designed by Ross Mills, assisted by John Hudson and Paul Hanslow at Tiro Typeworks for the STI Pub companies.
@@ -44,7 +46,7 @@ The only (Unicode) fonts that I have come across which correctly place diacritic
 
 ## This version
 
-Polytonic Extension lacks features that would be expected from professional fonts, especially kerning, good hinting, and certain OpenType considerations (e.g. management of diacritics when uppercasing Greek, small caps). I use iota subscript everywhere, there is no provision for adscript. It is available in Regular, Medium, Semibold and Bold weights (and as a variable font), with no Italic style. I may alter the fonts from time to time without notice, for example if I decide outlines need tweaking or I want to improve kerning.
+Polytonic Extension lacks features that would be expected from professional fonts, especially kerning, good hinting, and certain OpenType considerations (e.g. management of diacritics when uppercasing Greek, small caps). I use iota subscript everywhere, there is no provision for adscript. It is available in Regular, Medium, Semibold and Bold weights (and as a variable font), with no Italic style (Italic fonts are provided here so the *Italic* button will continue to work in Word processers when typing in Latin, Cyrillic or monotonic Greek, they are functionally no different to the official STIX Two Text fonts). I may alter the fonts from time to time without notice, for example if I decide outlines need tweaking or I want to improve kerning.
 
 If STIX Two is ever updated to support polytonic Greek, [which is quite possible](https://github.com/stipub/stixfonts/issues/146), then my modified version will become obsolete.
 
